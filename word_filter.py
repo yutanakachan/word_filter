@@ -4,8 +4,7 @@ class WordFilter:
 
 
     def ng_word(self):
-        self.word = input("｢NGワードを入力してください｣"
-                          " ※何も記入がない場合はNGワード追加、終了 入力:")
+        self.word = input("｢NGワードを入力してください｣　入力:")
         return self.word
 
     def ng_word_hit(self):
