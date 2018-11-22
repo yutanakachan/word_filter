@@ -13,10 +13,8 @@ class WordFilter:
 
     def censor(self, my_filter):
         word_area = my_filter
-        if "" in word_area:
-            return word_area.replace(self.ng_word(), self.ng_word_hit())
-        else:
-            return word_area
+        return word_area.replace(self.ng_word(), self.ng_word_hit())
+
 
 
 ng_list = []
